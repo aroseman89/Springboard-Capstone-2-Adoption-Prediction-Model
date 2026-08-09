@@ -2,8 +2,6 @@
 
 **A classification model that predicts, at intake, whether a shelter animal is likely to be adopted — built to help shelter staff prioritize resources, medical care, and marketing where they matter most.**
 
-> Capstone Two, Springboard Data Science Career Track
-
 ---
 
 ## The Problem
