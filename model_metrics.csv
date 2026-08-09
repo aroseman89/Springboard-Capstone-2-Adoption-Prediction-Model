@@ -1,0 +1,51 @@
+Section,Field,Value
+Model Identification,Final Model,Random Forest Classifier
+Model Identification,Library,scikit-learn RandomForestClassifier
+Model Identification,Selection Metric,F1 Score (test set)
+Model Identification,Selection Reason,Highest F1 among 3 tuned models + baseline
+,,
+Hyperparameters (via 5-fold GridSearchCV),n_estimators,100
+Hyperparameters (via 5-fold GridSearchCV),criterion,entropy
+Hyperparameters (via 5-fold GridSearchCV),max_depth,
+Hyperparameters (via 5-fold GridSearchCV),class_weight,balanced
+Hyperparameters (via 5-fold GridSearchCV),random_state,42
+,,
+Test Set Performance,Accuracy,0.9129
+Test Set Performance,Precision,0.8943
+Test Set Performance,Recall,0.8333
+Test Set Performance,F1 Score,0.8627
+Test Set Performance,ROC-AUC,0.8946
+Test Set Performance,Test Set Size,402
+Test Set Performance,"Confusion Matrix (TN, FP, FN, TP)","257, 13, 22, 110"
+,,
+Training Data,Train Set Size,1605
+Training Data,Number of Features,19
+Training Data,Target Variable,"AdoptionLikelihood (0 = Not Likely, 1 = Likely)"
+Training Data,Class Balance (Train),0.328 positive
+,,
+Feature List (ranked by Random Forest importance),Rank,Feature (Importance)
+Feature List (ranked by Random Forest importance),1,Size (0.2097)
+Feature List (ranked by Random Forest importance),2,AgeMonths (0.1242)
+Feature List (ranked by Random Forest importance),3,Vaccinated (0.1043)
+Feature List (ranked by Random Forest importance),4,AdoptionFee (0.0895)
+Feature List (ranked by Random Forest importance),5,WeightKg (0.0885)
+Feature List (ranked by Random Forest importance),6,TimeInShelterDays (0.0802)
+Feature List (ranked by Random Forest importance),7,HealthCondition (0.0783)
+Feature List (ranked by Random Forest importance),8,Breed_Labrador (0.0669)
+Feature List (ranked by Random Forest importance),9,LifeStage (0.0507)
+Feature List (ranked by Random Forest importance),10,PreviousOwner (0.0160)
+Feature List (ranked by Random Forest importance),11,Breed_Parakeet (0.0137)
+Feature List (ranked by Random Forest importance),12,Breed_Rabbit (0.0128)
+Feature List (ranked by Random Forest importance),13,Color_White (0.0110)
+Feature List (ranked by Random Forest importance),14,Color_Orange (0.0104)
+Feature List (ranked by Random Forest importance),15,Color_Gray (0.0103)
+Feature List (ranked by Random Forest importance),16,Color_Brown (0.0092)
+Feature List (ranked by Random Forest importance),17,Breed_Poodle (0.0088)
+Feature List (ranked by Random Forest importance),18,Breed_Siamese (0.0078)
+Feature List (ranked by Random Forest importance),19,Breed_Persian (0.0077)
+,,
+Model Comparison (all models tested),Model,Accuracy / Precision / Recall / F1 / ROC-AUC
+Model Comparison (all models tested),Random Forest,0.913 / 0.894 / 0.833 / 0.863 / 0.895
+Model Comparison (all models tested),Decision Tree,0.910 / 0.881 / 0.841 / 0.860 / 0.887
+Model Comparison (all models tested),Logistic Regression,0.699 / 0.531 / 0.720 / 0.611 / 0.796
+Model Comparison (all models tested),Baseline (Majority Class),0.672 / 0.000 / 0.000 / 0.000 / 0.500
