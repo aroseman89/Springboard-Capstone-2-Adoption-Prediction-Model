@@ -70,7 +70,7 @@ Full step-by-step work, including all EDA visualizations, is in [`Adoption_Predi
 ## Repository Structure
 
 ```
-├── Adoption_Prediction_Model.ipynb   # Full analysis: wrangling, EDA, preprocessing, modeling
+├── Adoption Prediction Model.ipynb   # Full analysis: wrangling, EDA, preprocessing, modeling
 ├── Capstone_Final_Report.pdf         # Written report: problem, approach, findings, recommendations
 ├── Capstone_Slide_Deck.pptx          # Stakeholder-facing slide deck
 ├── model_metrics.csv                 # Final model features, hyperparameters, and performance metrics
@@ -79,8 +79,6 @@ Full step-by-step work, including all EDA visualizations, is in [`Adoption_Predi
 ├── figures/                          # Exported charts used in the report and this README
 └── README.md
 ```
-
-*(Adjust paths above to match your actual repo layout if it differs.)*
 
 ## Tools & Libraries
 
