@@ -90,5 +90,3 @@ Full step-by-step work, including all EDA visualizations, is in [`Adoption_Predi
 - Validate the model's real-world 30-day identification rate against the original project's 70% target.
 
 ---
-
-*Springboard Data Science Career Track — Capstone Two*
